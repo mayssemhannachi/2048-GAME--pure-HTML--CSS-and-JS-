@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+#game-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ccc;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#score {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#new-game-btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

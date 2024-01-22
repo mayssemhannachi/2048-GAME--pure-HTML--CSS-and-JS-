@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+*::selection {
+    background-color: #F6F6F6;
+    color: #fff;
+}
+
+body {
+    background-color: #F6F6F6;
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 50px 100px;
+    z-index: 1000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    background: #F6F6F6;
+}
+/*
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+*/
+header .main{
+    background-color: #F6F6F6;
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.homebtn {
+    background-color: #8785A2;
+    color: #F6F6F6;
+    height: 150px;
+    width: 150px;
+    font-weight: 400;
+    font-size: 3.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.homebtn:hover {
+    background-color: #84839ec5 ;
+    color: #F6F6F6;
+    transition: 0.5s;
+}
+
+header .main2{
+    background-color: #8785A2;
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header .main2 .infoplay {
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #F6F6F6;
+    align-items: center;
+    text-align: center;
+}
+/*
+.stats1,
+.stats2,
+#new-game-btn {
+    position: relative;
+    padding: 10px;
+    background-color: #FFC7C7; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 70px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+
+
+#new-game-btn {
+    margin-left: 20px;
+    height: 50px;
+    width: 300px;
+}
+
+#new-game-btn:hover {
+    background-color: #f1bcbcb1;
+    transition: 0.5s;
+}
+
+.text {
+    position: relative;
+    top: 275px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.text h5 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #8785A2;
+    align-items: center;
+    text-align: center;
+}
+*/
