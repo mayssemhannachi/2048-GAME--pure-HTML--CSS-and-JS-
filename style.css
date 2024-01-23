@@ -18,26 +18,19 @@ body {
 }
 
 header {
-    position: fixed;
+    position: fixed center;
     top: 0;
     right: 0;
-    width: 100%;
+    width: 500;
     padding: 50px 100px;
-    z-index: 1000;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     text-align: center;
     background: #F6F6F6;
 }
-/*
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-*/
+
+
 header .main{
     background-color: #F6F6F6;
     position: relative;
@@ -53,8 +46,8 @@ header .main{
     color: #F6F6F6;
     height: 150px;
     width: 150px;
-    font-weight: 400;
-    font-size: 3.5rem;
+    font-weight: 600;
+    font-size: 3rem;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
@@ -71,7 +64,7 @@ header .main{
 }
 
 header .main2{
-    background-color: #8785A2;
+    background-color: #F6F6F6;
     position: relative;
     top: 10px;
     display: flex;
@@ -91,12 +84,12 @@ header .main2 .infoplay {
 }
 
 header .main2 .stats1{
-    background-color: #FFC7C7;
+    background-color: #454550;
     color: #F6F6F6;
     height: 65px;
     width: 140px;
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 1rem;
     border-radius: 5px;
     z-index: 150;
     cursor: pointer;
@@ -104,31 +97,33 @@ header .main2 .stats1{
     display: flex; 
     text-transform: uppercase;
     justify-content: center;
+    right: 15%;
     padding: 0%;
     margin: 0px 10px;
 }
 
 header .main2 .stats2{
-    background-color: #FFC7C7;
+    background-color: #454550;
     color: #F6F6F6;
     height: 65px;
     width: 140px;
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 1rem;
     border-radius: 5px;
     z-index: 150;
     text-decoration: none;
     display: flex; 
     text-transform: uppercase;
     justify-content: center;
-    margin: 0px 0px 0px 10px;
+    left: 15%;
     padding: 0%;
+    margin: 0px 10px;
 }
 
 header .main2 .new-game{
     cursor: pointer;
     display: flex;
-    align-items: center;  
+    align-items: top;  
 }
 
 header .main2 .new-game .new-game-btn {
@@ -138,7 +133,7 @@ header .main2 .new-game .new-game-btn {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    height: 55px;
+    height: 70px;
     width: 300px;
     font-size: 2rem;
     font-weight: 600;
@@ -147,26 +142,28 @@ header .main2 .new-game .new-game-btn {
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    top: 30px;
-    right: 0%;
-    margin-right: 0px;
+    bottom: -20%;
+}
+
+header .main2 .new-game .new-game-btn:hover {
+    background-color: #FFC7C7c5;
+    color: #F6F6F6;
+    transition: 0.5s;
 }
 
 
-/*
+
 .text {
-    position: relative;
-    top: 275px;
-    text-align: center;
     background-color: #F6F6F6;
+    position: relative;
+    top: 0px;
 }
 
 .text h5 {
-    margin-top: 30px;
-    font-size: 1.5rem;
-    font-weight: 400;
+    margin-top: -28px;
+    font-size: 1rem;
+    font-weight: 600;
     color: #8785A2;
     align-items: center;
     text-align: center;
 }
-*/
